@@ -35,6 +35,9 @@ jobs:
           languages: csharp
           build-mode:  manual
 
+    - name: Dependency Review
+      uses: actions/dependency-review-action@v3
+
     - name: Restore dependencies
       run: dotnet restore 
 
