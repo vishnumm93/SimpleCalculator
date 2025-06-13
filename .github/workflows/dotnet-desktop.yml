@@ -52,6 +52,9 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
 
+    - name: Publish Application
+      run: dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true
+      
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
