@@ -36,6 +36,7 @@ jobs:
           build-mode:  manual
 
     - name: Dependency Review
+      if: github.event_name == 'pull_request'
       uses: actions/dependency-review-action@v3
 
     - name: Restore dependencies
