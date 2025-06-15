@@ -1,4 +1,4 @@
-﻿# SimpleCalculator
+# SimpleCalculator
 
 Overview
 This project sets up a CI/CD pipeline for a simple WPF Calculator application using GitHub Actions. The pipeline builds the application, runs unit tests, performs CodeQL code analysis, reviews dependencies, publishes the application as a single executable, and uploads the build artifacts.
@@ -57,4 +57,8 @@ Future Scope of Improvements
 		○ Collect logs from test executions and build pipelines, and store them in a centralized logging system for traceability and diagnostics.
 	6. Environment Cleanup:
 		○ Introduce automated cleanup routines to tear down temporary environments, clear test data, and optimize resource usage after pipeline execution.
+
+
+## Status
+[![.NET WPF Pipeline](https://github.com/vishnumm93/SimpleCalculator/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/vishnumm93/SimpleCalculator/actions/workflows/dotnet-desktop.yml)
 
