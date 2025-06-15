@@ -53,9 +53,11 @@ Future Scope of Improvements
 		○ Implement automated security scans of build artifacts using VirusTotal APIs or enterprise-grade vulnerability scanning tools to ensure artifact safety before deployment.
 	4. Failure Notifications:
 		○ Configure automated alerts via Slack or email to notify teams immediately when test failures occur, improving response times.
-	5. Centralized Log Management:
+        5. Environment Based Deployments:
+		○ Deplyoment to staging or production environments.
+	6. Centralized Log Management:
 		○ Collect logs from test executions and build pipelines, and store them in a centralized logging system for traceability and diagnostics.
-	6. Environment Cleanup:
+	7. Environment Cleanup:
 		○ Introduce automated cleanup routines to tear down temporary environments, clear test data, and optimize resource usage after pipeline execution.
 
 
